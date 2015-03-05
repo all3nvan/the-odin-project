@@ -16,10 +16,8 @@ input[type="text"] {
 	height: 25px;
 }
 
-#header {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.header {
+	display: block;
 	float: right;
 }
 
@@ -28,8 +26,31 @@ li {
 	padding: 5px;
 }
 
-button[type="button"] {
+ul {
+	display: inline;
+}
+
+button {
 	display: inline;
 	margin: 0 auto;
-	
+}
+
+.footer {
+	background: #f2f2f2;
+	position: absolute;
+	min-width: 100%;
+	line-height: 40px;
+	bottom: 0;
+	ul {
+		padding: 0 0 0 20px;
+	}
+	.footer-left {
+		float: left;
+		margin: 0;
+	}
+	.footer-right {
+		float: right;
+		margin: 0;
+		margin-right: 20px;
+	}
 }
